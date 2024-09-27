@@ -3,6 +3,7 @@
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: beige;
 }
 
 .logo {
@@ -39,4 +40,28 @@
 
 .read-the-docs {
   color: #888;
+}
+
+h2 {
+  background-color: beige;
+}
+
+form {
+  width: 300px;
+  margin: auto;
+  color: white;
+  text-align: center;
+  background-color: rgb(103, 142, 103);
+  font-size: large;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+button {
+  background-color: rgb(60, 7, 7);
+}
+
+label {
+  display: flex;
+  flex-direction: column;
 }

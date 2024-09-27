@@ -14,8 +14,14 @@ export default function Authenticate ({ token }) {
                 }
             });
             const result = await response.json();
+            // if (!response.ok) {
+            //     throw new Error("Whoops, there was an error!")
+            // } else {
+            //     setSuccessMessage(result.message);
+            // }
+            console.log(result);
             setSuccessMessage(result.message);
-        } catch (error) {
+            } catch (error) {
             setError(error.message);
         }
     }
